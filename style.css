@@ -62,3 +62,50 @@ nav a {
 .hamburger {
     display: none;
 }
+
+.hero {
+    background-color: #eef3f9;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+.hero-text {
+    max-width: 550px;
+}
+
+.hero h1 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+.profile-circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #dbe4f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #64748b;
+}
+
+.btn {
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
