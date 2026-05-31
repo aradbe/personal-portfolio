@@ -148,6 +148,58 @@ nav a {
     width: 70%;
 }
 
-.mongo {
-    width: 65%;
+.python {
+    width: 90%;
+}
+
+.projects {
+    background-color: #f8fafc;
+}
+
+.center {
+    text-align: center;
+}
+
+.project-list {
+    display: flex;
+    gap: 2rem;
+}
+
+.project-card {
+    flex: 1;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.project-image {
+    height: 180px;
+    background-color: #dbe4f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-info {
+    padding: 1.5rem;
+}
+
+.project-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.project-card p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.project-btn {
+    background-color: orange;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
 }
