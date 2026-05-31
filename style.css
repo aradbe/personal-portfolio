@@ -309,3 +309,14 @@ textarea {
 .socials a:hover {
     transform: scale(1.15);
 }
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    margin: 0;
+}
