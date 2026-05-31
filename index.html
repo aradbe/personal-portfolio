@@ -1,28 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arad Ben Eliezer | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<body>
 <header>
     <div class="container nav">
-
         <h3 class="logo">Arad Ben Eliezer</h3>
-
         <nav>
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
         </nav>
-
         <div class="hamburger">☰</div>
-
     </div>
 </header>
+
 <section class="hero" id="home">
     <div class="container hero-content">
         <div class="hero-text">
@@ -39,6 +36,7 @@
         </div>
     </div>
 </section>
+
 <section class="about" id="about">
     <div class="container about-content">
         <div class="about-text">
@@ -73,6 +71,7 @@
         </div>
     </div>
 </section>
+
 <section class="projects" id="projects">
     <div class="container">
         <h2 class="center">My Projects</h2>
@@ -81,21 +80,15 @@
                 <div class="project-image">Project Image</div>
                 <div class="project-info">
                     <h3>Cost Manager</h3>
-                    <p>
-                        Expense tracking application built with modern web technologies.
-                    </p>
-
+                    <p>Expense tracking application built with modern web technologies.</p>
                     <a href="#" class="project-btn">View Project</a>
                 </div>
             </div>
             <div class="project-card">
                 <div class="project-image">Project Image</div>
-
                 <div class="project-info">
                     <h3>Cyber Security Project</h3>
-                    <p>
-                        JWT authentication and secure backend implementation.
-                    </p>
+                    <p>JWT authentication and secure backend implementation.</p>
                     <a href="#" class="project-btn">View Project</a>
                 </div>
             </div>
@@ -103,17 +96,14 @@
                 <div class="project-image">Project Image</div>
                 <div class="project-info">
                     <h3>Portfolio Website</h3>
-
-                    <p>
-                        Responsive portfolio website using HTML and CSS.
-                    </p>
-
+                    <p>Responsive portfolio website using HTML and CSS.</p>
                     <a href="#" class="project-btn">View Project</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 <section class="contact" id="contact">
     <div class="container">
         <h2 class="center">Get In Touch</h2>
@@ -125,46 +115,34 @@
                 <input type="email" id="email">
                 <label for="message">Message</label>
                 <textarea id="message"></textarea>
-                <button type="submit" class="btn">
-                    Send Message
-                </button>
+                <button type="submit" class="btn">Send Message</button>
             </form>
             <div class="contact-info">
                 <h3>Contact Information</h3>
-                <p>
-                    📧
-                    <a href="mailto:aradbearad@gmail.com">
-                        aradbearad@gmail.com
-                    </a>
-                </p>
-                <p>
-                    📱
-                    <a href="tel:0525383948">
-                        052-5383948
-                    </a>
-                </p>
-                <p>
-                    📍 Holon, Israel
-                </p>
+                <p>📧 <a href="mailto:aradbearad@gmail.com">aradbearad@gmail.com</a></p>
+                <p>📱 <a href="tel:0525383948">052-5383948</a></p>
+                <p>📍 Holon, Israel</p>
                 <div class="socials">
-                    <a href="https://github.com/aradbe" target="_blank">
-                        Git
-                    </a>
-                    <a href="https://www.linkedin.com/in/arad-ben-eliezer-3087021b5/" target="_blank">
-                        in
-                    </a>
-                    <a href="cv.pdf" target="_blank">
-                        CV
-                    </a>
+                    <a href="https://github.com/aradbe" target="_blank">Git</a>
+                    <a href="https://www.linkedin.com/in/arad-ben-eliezer-3087021b5/" target="_blank">in</a>
+                    <a href="cv.pdf" target="_blank">CV</a>
                 </div>
             </div>
         </div>
     </div>
-
 </section>
+
 <footer>
     <p>© 2026 Arad Ben Eliezer. All rights reserved.</p>
 </footer>
-</body>
 
+<script>
+    const hamburger = document.querySelector('.hamburger');
+    const nav = document.querySelector('nav');
+
+    hamburger.addEventListener('click', function () {
+        nav.classList.toggle('open');
+    });
+</script>
+</body>
 </html>
